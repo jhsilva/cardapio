@@ -7,6 +7,6 @@ describe('Test', function() {
     it('open', function() {
       var open = 'never';
       expect(open).to.be.equal('never');
-    })
-  })
+    });
+  });
 });
