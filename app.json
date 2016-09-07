@@ -1,0 +1,8 @@
+{
+  "name": "Cardapio",
+  "description": "Epa nenem or Zebeleo",
+  "repository": "https://github.com/jhsilva/cardapio.git",
+  "logo": "https://lh6.ggpht.com/J0wJuCsU4y7gBgHGqN1aF4FWzQk04PUqSWrHCzlymwVJ9-SOLuoi_-JkN2qXuskySw=w300",
+  "keywords": ["node", "hapi"],
+  "image": "heroku/nodejs"
+}
