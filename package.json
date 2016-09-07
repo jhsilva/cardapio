@@ -24,7 +24,7 @@
     "mocha": "^3.0.2"
   },
   "scripts": {
-    "setup": "npm install && npm install -g mocha istanbul codeclimate-test-reporter",
+    "setup": "npm install && npm install -g mocha istanbul",
     "test": "mocha test/specs/**/*-spec.js",
     "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- ./test/specs/**/*-spec.js"
   },
