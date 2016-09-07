@@ -23,7 +23,7 @@
     "mocha": "^3.0.2"
   },
   "scripts": {
-    "setup": "npm install && npm install -g mocha",
+    "setup": "npm install && npm install -g mocha codeclimate-test-reporter",
     "test": "mocha test/specs/**/*-spec.js"
   },
   "repository": {
