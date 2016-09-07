@@ -23,6 +23,6 @@ ratings:
   paths:
   - app/**
   - "**.js"
-exclude_paths:
-- spec/**/*
-- "**/vendor/**/*"
+# exclude_paths:
+# - spec/**/*
+# - "**/vendor/**/*"
