@@ -8,12 +8,10 @@ engines:
     config:
       languages:
       - node_js
-        #mass_threshold: 30
       - javascript
 ratings:
   paths:
   - app/**
   - "**.js"
 exclude_paths:
-- spec/**/*
-- "**/vendor/**/*"
+- test/**/*
