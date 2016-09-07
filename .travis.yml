@@ -4,5 +4,4 @@ node_js:
 install:
   - npm run setup
 script:
-  - bithound check git@github.com:jhsilva/cardapio.git
   - npm test
