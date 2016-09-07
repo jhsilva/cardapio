@@ -20,10 +20,11 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "cz-conventional-changelog": "^1.2.0",
     "mocha": "^3.0.2"
   },
   "scripts": {
-    "setup": "npm install && npm install -g mocha istanbul",
+    "setup": "npm install && npm install -g mocha istanbul commitizen",
     "test": "mocha test/specs/**/*-spec.js",
     "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- ./test/specs/**/*-spec.js"
   },
@@ -39,5 +40,10 @@
   "bugs": {
     "url": "https://github.com/jhsilva/cardapio/issues"
   },
-  "homepage": "https://github.com/jhsilva/cardapio#readme"
+  "homepage": "https://github.com/jhsilva/cardapio#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
