@@ -1,7 +1,10 @@
 language: node_js
 node_js:
-  - "6.5.0"
+- 6.5.0
 install:
-  - npm run setup
+- npm run setup
 script:
-  - npm test
+- npm test
+notifications:
+  slack:
+    secure: ShuVfayvpryWclOBG0H5ZUEHSdyJR3T1mt40MoyqOP1AvQ3bWJyVxALCVhJjsFEMRnj2PCb5K7rNokooz9H7dzhd7XFh28VwqCDjwkPOrRNQtWx7OuUPSHiv+qXv6rHo01NMIibWL1KedxsgMgnPZdAM+zYCxvGtaPe7IK7Q5Kf6nU/HUOMtKsSfIXD+QoTYO52m1fWOa6uJwlzf6ZxC8DjTNFIORFeCd8B/K+2MTcgNoOBdSn8LJpFkZcUz85rqg2FK8234i51nyjRpt8ODgg8FqwGB51GSwd5ORPcOjWeyM7e0URHkQ5Jn4t/7rYMmt5lwgk0fRGlEcnaHez/bWIR1tvpeUfY8OZvVrzrR5KmNxnHeNnJcuHDAn3zKbnL6XfLcwsjoQrZrHr+8d900S0v+vxGuXHNxSTxurlz/OJvU0RLHp03YfcAnZ4jFoPvgDvb/P90Fg9g4rUApzu0Q2L+GuE6kwZFJmqVd9Wl8XsgPIHfyl+NvVFLPQEFPa74mfQShTkIUnA5W5VXA4uxKt3cG7uamrjoD9ZntR90IiIhKrGu054oDIV7puTma6m7CPgbhKoBt3nVZLzniCpGN0WIRYxjmzWyUCMXarFsehlpCdwK6hZloGaudQrOf/Qk+V64Db6O3T8SU0gMNi3XNXyPXmW1EQodmfMP0NTE2F6k=
