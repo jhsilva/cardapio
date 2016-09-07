@@ -1,3 +1,3 @@
 # Cardapio
 
-[![Build Status](https://travis-ci.org/jhsilva/cardapio.svg?branch=master)](https://travis-ci.org/jhsilva/cardapio)
+[![Build Status](https://travis-ci.org/jhsilva/cardapio.svg?branch=master)](https://travis-ci.org/jhsilva/cardapio) [![Code Climate](https://codeclimate.com/repos/57cf96d03f4921004f004dea/badges/e95fe5cc18bd6f0d1105/gpa.svg)](https://codeclimate.com/repos/57cf96d03f4921004f004dea/feed) [![Test Coverage](https://codeclimate.com/repos/57cf96d03f4921004f004dea/badges/e95fe5cc18bd6f0d1105/coverage.svg)](https://codeclimate.com/repos/57cf96d03f4921004f004dea/coverage) [![Issue Count](https://codeclimate.com/repos/57cf96d03f4921004f004dea/badges/e95fe5cc18bd6f0d1105/issue_count.svg)](https://codeclimate.com/repos/57cf96d03f4921004f004dea/feed) [dependencies](https://david-dm.org/jhsilva/cardapio.svg)
